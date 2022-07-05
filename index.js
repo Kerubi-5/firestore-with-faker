@@ -10,7 +10,7 @@ admin.initializeApp({
 
 const db = admin.firestore();
 
-const collection = "article"; // Your collection name
+const collection = "articles"; // Your collection name
 const ndocs = 20; // Number of dummy posts
 
 console.log("Uploading dummy data. . .");
