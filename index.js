@@ -29,7 +29,7 @@ for (let i = 0; i < ndocs; i++) {
     body: faker.lorem.paragraphs(),
     featuredImage: faker.image.imageUrl(),
     slug: faker.lorem.slug(),
-    createdAt: faker.date.past().toISOString(),
+    createdAt: faker.date.past(),
   };
 
   db.collection(collection).doc().set(obj);
