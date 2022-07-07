@@ -1,4 +1,6 @@
-# Instructions
+# Automatically populates your firestore with faker.js data
+
+## Instructions
 
 1. Go to user and permissions in google firebase
 2. Go to service accounts tab
