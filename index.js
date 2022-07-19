@@ -15,7 +15,14 @@ const ndocs = 20; // Number of dummy posts
 
 console.log("Uploading dummy data. . .");
 
-const categories = ["World", "Business", "Technology", "Health", "Sports"];
+const categories = [
+  "World",
+  "Business",
+  "Science",
+  "Technology",
+  "Health",
+  "Sports",
+];
 
 const bar = new cliProgress.SingleBar({}, cliProgress.Presets.shades_classic);
 bar.start(ndocs, 0);
